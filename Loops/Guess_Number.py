@@ -1,3 +1,7 @@
+"""
+ This program is on guessing the number within 9 attempts. Save a number and guess it,
+if number is greater then print greater number and if lesser print lesser.
+"""
 i=1
 number=18
 while(i<=9) :
