@@ -10,3 +10,7 @@ for item,toffee in list1 : # it will print both object as different because both
     print(item," And they eat no. of toffee : ",toffee)
 dict1 = dict(list1)
 print(dict1)
+for item,lollipop in dict1.items(): # it will print both items and quantity
+    print(item, "lollipop " ,lollipop)
+for item in dict1 : # it will print only items
+    print(item)
