@@ -13,4 +13,9 @@ a=True
 b=False
 print(a or b)
 print(a and b)
- 
+
+# The below operator is Identity operators
+a=True
+b=False
+print(a is b)
+print(a is not b)
