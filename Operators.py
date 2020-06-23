@@ -19,3 +19,8 @@ a=True
 b=False
 print(a is b)
 print(a is not b)
+
+# The below operator is Membership operators
+list=[41,85,452,2,23,9,85,98,5,4,6,15,81,489]
+print(32 in list)
+print(32 not in list)
