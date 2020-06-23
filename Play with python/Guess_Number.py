@@ -15,5 +15,5 @@ while(i<=9) :
         print("Your attempt is",i)
         break
     i=i+1
-if i==10 :
+if i>9 :
     print("Your attempts are over")
