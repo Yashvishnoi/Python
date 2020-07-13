@@ -7,6 +7,6 @@ def Average(a,b):
 a=int(input("Enter a value of a: "))
 b=int(input("Enter a value of b: "))
 d=Sum(a,b)
-print(d)
+print("Sum of two number : ",d)
 e=Average(a,b)
-print (e)
+print ("Average of entered number is : ",e)
