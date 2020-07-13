@@ -1,7 +1,9 @@
 def Sum(a,b) :
+    """This"""
     c=a+b
     return c
 def Average(a,b):
+    """This"""
     c= (a+b)/2
     return c
 a=int(input("Enter a value of a: "))
@@ -10,3 +12,4 @@ d=Sum(a,b)
 print("Sum of two number : ",d)
 e=Average(a,b)
 print ("Average of entered number is : ",e)
+print (Sum._doc_)
