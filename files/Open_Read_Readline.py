@@ -23,3 +23,9 @@ print("It will print line by line\n")
 f= open("harry.txt","rt")
 print(f.readline())
 f.close
+
+
+print("IT will print lines in list")
+f= open("harry.txt","rt")
+print(f.readlines())
+f.close
