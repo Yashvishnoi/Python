@@ -10,3 +10,9 @@ f=open("harry2.txt","r")
 content= f.read()
 print(content)
 f.close()
+
+# To print number of characters you write
+f=open("harry2.txt","a")
+a= f.write(" He loves coding and finding errors in his own program .")
+print(a)
+f.close()
