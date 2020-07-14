@@ -16,3 +16,11 @@ f=open("harry2.txt","a")
 a= f.write(" He loves coding and finding errors in his own program .")
 print(a)
 f.close()
+
+
+# To read and write to a file simuntaneously
+
+f=open("harry2.txt","r+")
+print(f.read())
+f.write("Thank you")
+f.close()
