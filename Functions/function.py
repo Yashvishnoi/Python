@@ -1,5 +1,5 @@
 def Sum(a,b) :
-    """This"""
+    """This function gives the sum of 2 number """
     c=a+b
     return c
 def Average(a,b):
@@ -12,4 +12,4 @@ d=Sum(a,b)
 print("Sum of two number : ",d)
 e=Average(a,b)
 print ("Average of entered number is : ",e)
-print (Sum._doc_)
+print (Sum.__doc__)
