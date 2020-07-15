@@ -5,3 +5,8 @@ print(f.tell())
 print(f.readline())
 print(f.tell())
 print(f.readline())
+ # to reset file pointer here f use f.seek(LineNumber)
+
+f.seek(0)
+print(f.tell())
+print(f.readline())
