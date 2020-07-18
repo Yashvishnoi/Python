@@ -6,4 +6,4 @@ def factorial(n):
     return fac
 
 num= int(input("Enter the number "))
-print(factorial(num))
+print("Factorial using iterative mrthod ",factorial(num))
